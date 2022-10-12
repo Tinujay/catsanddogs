@@ -4,6 +4,110 @@
 	<title>My Favorite Things</title>
   </head>
   <body>
+    <script>
+      let myHand = [3,4,5,7,8]
+        for (let i=0; i<myHand.length; i++) {
+          console.log(i)
+        }
+      //you use for loops for arrays, in this case numbers
+
+        let artistNames = ['Partynextdoor', 'Drake', 'ArianaG', 'BrentF']
+        for (i=0; i<artistNames.length; i++) {
+          console.log(i)
+        }
+        //for loop for strings
+
+        let Total = 0
+        let myArr = [9,10,11,12]
+        for (i=0; i<myArr.length; i++) {
+          console.log(Total += myArr[i])
+        }
+        // you are adding the total to each element in the array for every loop
+
+        let dogs = {
+          name: 'Charlie',
+          type: 'morkiepoodle',
+          age: 1
+        }
+        console.log(dogs.name)
+        console.log(dogs.age)
+
+        dogs.type = 'whiteMorkiepoodle'
+        console.log(dogs.type)
+        //changed the value to one of the properties
+
+
+        let Disney = {
+          princess: 'Jasmine',
+          parks: 4,
+          favoritepark: 'Epcot',
+          ride: 'Aladdin'
+        }
+        console.log(Disney.princess)
+
+
+        Disney.princess = 'Mulan'
+        console.log(Disney.princess)
+        // you use '.' to select or access the value inside of the object
+        // don't use 'let' again to change the value of a property
+
+
+        let cars = {
+          name: 'BMW',
+          year: 2014,
+          color: 'white',
+          model: 'sports'
+        }
+        console.log(cars.name)
+        cars.model = '4doorsports'
+        console.log(cars.model)
+        //another example. keep practicing!
+        
+
+        //Array of Objects
+        let movies = [
+          {name: 'HomeAlone',
+           number: 5
+          },
+          {name: 'Notebook',
+           number: 8}
+        ]
+        console.log(movies.length)
+        //array length is 2 because there are 2 sets of objects in the array, (0,1 index)
+        console.log(movies[0].name)
+
+
+        //Objects with Arrays
+        let cartoons = {
+          shows: ['FairlyOdd', 'iCarly', 'Zoey101', 'Spongebob'],
+          year: 2000
+        }
+        console.log(cartoons.shows)
+        console.log(cartoons.shows[2])
+        //remember. arrays have to be the same type of values; either string or number 
+
+
+       //Functions
+        function sayHi() {
+          console.log("Hello!")
+        }
+
+        function multiply(x,y) {
+          console.log(x*y)
+        }
+       x === 4
+       y === 5
+
+
+
+
+
+
+
+
+      
+
+</script>
 	<!-- 
 	  DIRECTIONS: Let's discuss some of our favorite things!
 
